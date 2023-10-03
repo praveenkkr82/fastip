@@ -16,7 +16,8 @@
       <LCN channelNumber="5010" serviceRef="tag:titanos.tv,2023-10-03:IntegrationChannel/9805"/>
       <LCN channelNumber="5011" serviceRef="tag:titanos.tv,2023-10-03:IntegrationChannel/9806"/>
       <LCN channelNumber="5012" serviceRef="tag:titanos.tv,2023-10-03:IntegrationChannel/9807"/>
-      <LCN channelNumber="5013" serviceRef="tag:titanos.tv,2023-10-03:IntegrationChannel/9808"/>
+	  <LCN channelNumber="5013" serviceRef="tag:titanos.tv,2023-10-03:IntegrationChannel/9808"/>
+	  <LCN channelNumber="5014" serviceRef="tag:titanos.tv,2023-10-03:IntegrationChannel/9809"/>
     </LCNTable>
   </LCNTableList>
   <ContentGuideSource CGSID="csg_id_01">
@@ -266,6 +267,20 @@
       <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
         <hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
           <URI>https://bitmovin-a.akamaihd.net/content/sintel/hls/playlist.m3u8</URI>
+        </hls:UriBasedLocation>
+      </OtherDeliveryParameters>
+    </ServiceInstance>
+    <ServiceName xml:lang="es">Multi Audio and Multi Subtitles</ServiceName>
+    <ProviderName>TitanOS</ProviderName>
+    <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+    <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+  </Service>
+  <Service version="1">
+    <UniqueIdentifier>tag:titanos.tv,2023-10-03:IntegrationChannel/9809</UniqueIdentifier>
+    <ServiceInstance>
+      <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+        <hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+          <URI>https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8 </URI>
         </hls:UriBasedLocation>
       </OtherDeliveryParameters>
     </ServiceInstance>
