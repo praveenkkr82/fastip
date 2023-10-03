@@ -16,6 +16,7 @@
       <LCN channelNumber="5010" serviceRef="tag:titanos.tv,2023-10-03:IntegrationChannel/9805"/>
       <LCN channelNumber="5011" serviceRef="tag:titanos.tv,2023-10-03:IntegrationChannel/9806"/>
       <LCN channelNumber="5012" serviceRef="tag:titanos.tv,2023-10-03:IntegrationChannel/9807"/>
+      <LCN channelNumber="5013" serviceRef="tag:titanos.tv,2023-10-03:IntegrationChannel/9808"/>
     </LCNTable>
   </LCNTableList>
   <ContentGuideSource CGSID="csg_id_01">
