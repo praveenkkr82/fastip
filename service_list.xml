@@ -32,11 +32,11 @@
     <ServiceInstance>
       <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
         <hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
-          <URI>https://ztnr.rtve.es/ztnr/1688885.m3u8</URI>
+          <URI>"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8</URI>
         </hls:UriBasedLocation>
       </OtherDeliveryParameters>
     </ServiceInstance>
-    <ServiceName xml:lang="es">La 2</ServiceName>
+    <ServiceName xml:lang="es">Apple Test Stream</ServiceName>
     <ProviderName>TitanOS</ProviderName>
     <RelatedMaterial>
       <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
