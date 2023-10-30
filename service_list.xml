@@ -52,11 +52,11 @@
     <ServiceInstance>
       <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
         <hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
-          <URI>https://streaming012.gestec-video.com/hls/eltoro_bal.m3u8</URI>
+          <URI>https://rdmedia.bbc.co.uk/testcard/simulcast/manifests/avc-full.m3u8</URI>
         </hls:UriBasedLocation>
       </OtherDeliveryParameters>
     </ServiceInstance>
-    <ServiceName xml:lang="es">El Toro TV</ServiceName>
+    <ServiceName xml:lang="es">BBC Test Stream All lang</ServiceName>
     <ProviderName>TitanOS</ProviderName>
     <RelatedMaterial>
       <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
