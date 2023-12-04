@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceList xmlns="urn:dvb:metadata:servicediscovery:2023" xmlns:mpeg7="urn:tva:mpeg7:2008" xmlns:dvbisd="urn:dvb:metadata:servicediscovery:2023" xmlns:tva="urn:tva:metadata:2023" xmlns:hls="vnd:apple:mpegurl" xsi:schemaLocation="urn:dvb:metadata:servicediscovery:2023 dvbi_v5.0.xsd vnd:apple:mpegurl hls_v1.0.xsd" xml:lang="es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="7">
+	<Name xml:lang="es">Channels</Name>
+	<ProviderName xml:lang="es">TitanOS</ProviderName>
+	<LCNTableList>
+		<LCNTable>
+			<LCN channelNumber="5851" serviceRef="tag:titanos.tv,2023-11-03:IntegrationChannel/15450"/>
+			<LCN channelNumber="5852" serviceRef="tag:titanos.tv,2023-11-03:IntegrationChannel/15451"/>
+			<LCN channelNumber="5853" serviceRef="tag:titanos.tv,2023-11-03:IntegrationChannel/15452"/>
+			<LCN channelNumber="5854" serviceRef="tag:titanos.tv,2023-11-03:IntegrationChannel/15453"/>
+			<LCN channelNumber="5855" serviceRef="tag:titanos.tv,2023-11-03:IntegrationChannel/15454"/>
+			<LCN channelNumber="5856" serviceRef="tag:titanos.tv,2023-11-03:IntegrationChannel/15455"/>
+			<LCN channelNumber="5857" serviceRef="tag:titanos.tv,2023-11-03:IntegrationChannel/15456"/>
+			<LCN channelNumber="5858" serviceRef="tag:titanos.tv,2023-11-03:IntegrationChannel/15458"/>
+			<LCN channelNumber="5859" serviceRef="tag:titanos.tv,2023-11-03:IntegrationChannel/15459"/>
+			<LCN channelNumber="5860" serviceRef="tag:titanos.tv,2023-11-03:IntegrationChannel/15460"/>
+			<LCN channelNumber="5861" serviceRef="tag:titanos.tv,2023-11-03:IntegrationChannel/15461"/>
+			<LCN channelNumber="5862" serviceRef="tag:titanos.tv,2023-11-03:IntegrationChannel/15462"/>
+			<LCN channelNumber="9999" serviceRef="tag:tpv.tv,2023-10-27:IntegrationChannel/99000"/>
+			<LCN channelNumber="9998" serviceRef="tag:tpv.tv,2023-10-27:IntegrationChannel/99001"/>
+			<LCN channelNumber="9997" serviceRef="tag:tpv.tv,2023-10-27:IntegrationChannel/99002"/>
+		</LCNTable>
+	</LCNTableList>
+	<ContentGuideSource CGSID="csg_id_01">
+		<Name xml:lang="es">Channels TV Guide</Name>
+		<ProviderName xml:lang="es">TitanOS</ProviderName>
+		<ScheduleInfoEndpoint contentType="application/xml">
+			<URI>http://dev03-gaea.titanos.tv:8081/dvbi/v1/schedule_info</URI>
+		</ScheduleInfoEndpoint>
+	</ContentGuideSource>
+	<Service version="1">
+		<UniqueIdentifier>tag:titanos.tv,2023-11-03:IntegrationChannel/15450</UniqueIdentifier>
+		<ServiceInstance>
+			<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+				<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+					<URI>https://euronews-euronews-world-1-us.wurlintegrationsrdf.wurl.tv/playlist.m3u8</URI>
+				</hls:UriBasedLocation>
+			</OtherDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName xml:lang="es">Euronews World</ServiceName>
+		<ProviderName>TitanOS</ProviderName>
+		<RelatedMaterial>
+			<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+			<tva:MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/ioi78gbn59f9493h5sfkjkmibkmb</tva:MediaUri>
+			</tva:MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:titanos.tv,2023-11-03:IntegrationChannel/15451</UniqueIdentifier>
+		<ServiceInstance>
+			<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+				<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+					<URI>https://amg01821-lovetv-amg01821c8-philipstv-worldwide-1176.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-lovetheplanetusuk-philipstvworldwide/playlist.m3u8?app_bundle=&amp;app_name=&amp;app_store_url=&amp;url=&amp;genre=&amp;ic=&amp;us_privacy=&amp;gdpr=&amp;gdpr_consent=&amp;did=&amp;dnt=&amp;coppa=&amp;iu=&amp;idtype=</URI>
+				</hls:UriBasedLocation>
+			</OtherDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName xml:lang="es">Love the Planet UK/US</ServiceName>
+		<ProviderName>TitanOS</ProviderName>
+		<RelatedMaterial>
+			<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+			<tva:MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/yklplz71pw3f8ayblpfp3om25hky</tva:MediaUri>
+			</tva:MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:titanos.tv,2023-11-03:IntegrationChannel/15452</UniqueIdentifier>
+		<ServiceInstance>
+			<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+				<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+					<URI>https://fastmedia-yu-gi-oh-2-us.wurlintegrationsrdf.wurl.tv/playlist.m3u8</URI>
+				</hls:UriBasedLocation>
+			</OtherDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName xml:lang="es">Yu-Gi-Oh!</ServiceName>
+		<ProviderName>TitanOS</ProviderName>
+		<RelatedMaterial>
+			<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+			<tva:MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/2iekx6n943clwvjkqkvz2w0kmogp</tva:MediaUri>
+			</tva:MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:titanos.tv,2023-11-03:IntegrationChannel/15453</UniqueIdentifier>
+		<ServiceInstance>
+			<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+				<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+					<URI>https://amg01821-lovetv-amg01821c13-philipstv-worldwide-1174.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-lovewineusuk-philipstvworldwide/playlist.m3u8?app_bundle=&amp;app_name=&amp;app_store_url=&amp;url=&amp;genre=&amp;ic=&amp;us_privacy=&amp;gdpr=&amp;gdpr_consent=&amp;did=&amp;dnt=&amp;coppa=&amp;iu=&amp;idtype=</URI>
+				</hls:UriBasedLocation>
+			</OtherDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName xml:lang="es">Love Wine US/UK</ServiceName>
+		<ProviderName>TitanOS</ProviderName>
+		<RelatedMaterial>
+			<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+			<tva:MediaLocator>
+				<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/fae9n0lhw6vug7l0ve94kvuf8fjt</tva:MediaUri>
+			</tva:MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:titanos.tv,2023-11-03:IntegrationChannel/15454</UniqueIdentifier>
+		<ServiceInstance>
+			<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+				<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+					<URI>https://amg01821-lovetv-amg01821c5-philipstv-worldwide-1172.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-trailersuk-philipstvworldwide/playlist.m3u8?app_bundle=&amp;app_name=&amp;app_store_url=&amp;url=&amp;genre=&amp;ic=&amp;us_privacy=&amp;gdpr=&amp;gdpr_consent=&amp;did=&amp;dnt=&amp;coppa=&amp;iu=&amp;idtype=</URI>
+				</hls:UriBasedLocation>
+			</OtherDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName xml:lang="es">Trailers UK</ServiceName>
+		<ProviderName>TitanOS</ProviderName>
+		<RelatedMaterial>
+			<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+			<tva:MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/iz33occay66x577bjazagifnzh2h</tva:MediaUri>
+			</tva:MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:titanos.tv,2023-11-03:IntegrationChannel/15455</UniqueIdentifier>
+		<ServiceInstance>
+			<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+				<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+					<URI>https://amg01415-waterbearfast-amg01415c1-philipstv-worldwide-1283.playouts.now.amagi.tv/playlist/amg01415-waterbearnetworkfast-waterbear-philipstvworldwide/playlist.m3u8?app_bundle=&amp;app_name=&amp;app_store_url=&amp;url=&amp;genre=&amp;ic=&amp;us_privacy=&amp;gdpr=&amp;gdpr_consent=&amp;did=&amp;dnt=&amp;coppa=&amp;iu=&amp;idtype=</URI>
+				</hls:UriBasedLocation>
+			</OtherDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName xml:lang="es">WaterBear</ServiceName>
+		<ProviderName>TitanOS</ProviderName>
+		<RelatedMaterial>
+			<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+			<tva:MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/8edy5x8e4m69r6jtx7439tlb6esv</tva:MediaUri>
+			</tva:MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:titanos.tv,2023-11-03:IntegrationChannel/15456</UniqueIdentifier>
+		<ServiceInstance>
+			<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+				<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+					<URI>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-traceurban-philipstv/playlist.m3u8?app_bundle=&amp;app_name=&amp;app_store_url=&amp;url=&amp;genre=&amp;ic=&amp;us_privacy=&amp;gdpr=&amp;gdpr_consent=&amp;did=&amp;dnt=&amp;coppa=&amp;iu=&amp;idtype=</URI>
+				</hls:UriBasedLocation>
+			</OtherDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName xml:lang="es">Trace Urban</ServiceName>
+		<ProviderName>TitanOS</ProviderName>
+		<RelatedMaterial>
+			<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+			<tva:MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/rctuk2xt6rsae1e504hvlhemjf1k</tva:MediaUri>
+			</tva:MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:titanos.tv,2023-11-03:IntegrationChannel/15458</UniqueIdentifier>
+		<ServiceInstance>
+			<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+				<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+					<URI>https://amg00861-terncloud-amg00861c8-philipstv-worldwide-1286.playouts.now.amagi.tv/playlist/amg00861-terninternationalfast-infastlifestylehd-philipstvworldwide/playlist.m3u8?app_bundle=&amp;app_name=&amp;app_store_url=&amp;url=&amp;genre=&amp;ic=&amp;us_privacy=&amp;gdpr=&amp;gdpr_consent=&amp;did=&amp;dnt=&amp;coppa=&amp;iu=&amp;idtype=</URI>
+				</hls:UriBasedLocation>
+			</OtherDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName xml:lang="es">InFAST</ServiceName>
+		<ProviderName>TitanOS</ProviderName>
+		<RelatedMaterial>
+			<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+			<tva:MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/yd9yzad2b6nltdug254zegmye3io</tva:MediaUri>
+			</tva:MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:titanos.tv,2023-11-03:IntegrationChannel/15459</UniqueIdentifier>
+		<ServiceInstance>
+			<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+				<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+					<URI>https://amg00861-terncloud-amg00861c7-philipstv-worldwide-1284.playouts.now.amagi.tv/playlist/amg00861-terninternationalfast-inwildhd-philipstvworldwide/playlist.m3u8?app_bundle=&amp;app_name=&amp;app_store_url=&amp;url=&amp;genre=&amp;ic=&amp;us_privacy=&amp;gdpr=&amp;gdpr_consent=&amp;did=&amp;dnt=&amp;coppa=&amp;iu=&amp;idtype=</URI>
+				</hls:UriBasedLocation>
+			</OtherDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName xml:lang="es">InWild</ServiceName>
+		<ProviderName>TitanOS</ProviderName>
+		<RelatedMaterial>
+			<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+			<tva:MediaLocator>
+				<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/aldgmumb40gh2tw10qiofu4olnsp</tva:MediaUri>
+			</tva:MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:titanos.tv,2023-11-03:IntegrationChannel/15460</UniqueIdentifier>
+		<ServiceInstance>
+			<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+				<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+					<URI>https://amg00861-terncloud-amg00861c6-philipstv-worldwide-1285.playouts.now.amagi.tv/playlist/amg00861-terninternationalfast-introublehd-philipstvworldwide/playlist.m3u8?app_bundle=&amp;app_name=&amp;app_store_url=&amp;url=&amp;genre=&amp;ic=&amp;us_privacy=&amp;gdpr=&amp;gdpr_consent=&amp;did=&amp;dnt=&amp;coppa=&amp;iu=&amp;idtype=</URI>
+				</hls:UriBasedLocation>
+			</OtherDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName xml:lang="es">InTrouble</ServiceName>
+		<ProviderName>TitanOS</ProviderName>
+		<RelatedMaterial>
+			<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+			<tva:MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/esl4bwxrqdvjnqdimwxnenx72qjp</tva:MediaUri>
+			</tva:MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:titanos.tv,2023-11-03:IntegrationChannel/15461</UniqueIdentifier>
+		<ServiceInstance>
+			<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+				<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+					<URI>https://amg00861-terncloud-amg00861c9-philipstv-worldwide-1287.playouts.now.amagi.tv/playlist/amg00861-terninternationalfast-inwonderhd-philipstvworldwide/playlist.m3u8?app_bundle=&amp;app_name=&amp;app_store_url=&amp;url=&amp;genre=&amp;ic=&amp;us_privacy=&amp;gdpr=&amp;gdpr_consent=&amp;did=&amp;dnt=&amp;coppa=&amp;iu=&amp;idtype=</URI>
+				</hls:UriBasedLocation>
+			</OtherDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName xml:lang="es">InWonder</ServiceName>
+		<ProviderName>TitanOS</ProviderName>
+		<RelatedMaterial>
+			<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+			<tva:MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/a38adtdbybk6ie7dwb2u4rydyt0n</tva:MediaUri>
+			</tva:MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:titanos.tv,2023-11-03:IntegrationChannel/15462</UniqueIdentifier>
+		<ServiceInstance>
+			<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+				<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+					<URI>https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01821-lovetvchannels-lovewinespain-philips-philipstv/playlist.m3u8?app_bundle=&amp;app_name=&amp;app_store_url=&amp;url=&amp;genre=&amp;ic=&amp;us_privacy=&amp;gdpr=&amp;gdpr_consent=&amp;did=&amp;dnt=&amp;coppa=&amp;iu=&amp;idtype=</URI>
+				</hls:UriBasedLocation>
+			</OtherDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName xml:lang="es">Love Wine Spain</ServiceName>
+		<ProviderName>TitanOS</ProviderName>
+		<RelatedMaterial>
+			<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+			<tva:MediaLocator>
+				<tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/n56cgdk2467h9je3hviyyoa80tml</tva:MediaUri>
+			</tva:MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:tpv.tv,2023-10-27:IntegrationChannel/99000</UniqueIdentifier>
+		<ServiceInstance>
+			<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+				<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+					<URI>https://rdmedia.bbc.co.uk/testcard/simulcast/manifests/avc-full.m3u8</URI>
+				</hls:UriBasedLocation>
+			</OtherDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName xml:lang="es">BBC Testcard: All representations in all languages</ServiceName>
+		<ProviderName>BBC R&amp;D</ProviderName>
+		<RelatedMaterial>
+			<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
+			<tva:MediaLocator>
+				<tva:MediaUri contentType="image/png">http://192.168.2.253/BBC_R&amp;D_logo.png</tva:MediaUri>
+			</tva:MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+		<ParentalRating>
+			<MinimumAge>18</MinimumAge>
+		</ParentalRating>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:tpv.tv,2023-10-27:IntegrationChannel/99001</UniqueIdentifier>
+		<ServiceInstance>
+			<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+				<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+					<URI>https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8</URI>
+				</hls:UriBasedLocation>
+			</OtherDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName xml:lang="es">BBB</ServiceName>
+		<ProviderName>Blender</ProviderName>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+		<ParentalRating>
+			<MinimumAge>18</MinimumAge>
+		</ParentalRating>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:tpv.tv,2023-10-27:IntegrationChannel/99002</UniqueIdentifier>
+		<ServiceInstance>
+			<OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+				<hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+					<URI>https://cec4ab2e92154424be43931b7f0b835a.mediatailor.us-east-1.amazonaws.com/v1/master/c05946d95894fc7462ef88cc98dfc97cc1f6994e/integration_channel_v2/playlist.m3u8?ads.wurl_name=Integration_Channel&amp;ads.wurl_channel=67890</URI>
+				</hls:UriBasedLocation>
+			</OtherDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName xml:lang="es">Wurl test</ServiceName>
+		<ProviderName>Wurl</ProviderName>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+		<ParentalRating>
+			<MinimumAge>18</MinimumAge>
+		</ParentalRating>
+	</Service>
+</ServiceList>
