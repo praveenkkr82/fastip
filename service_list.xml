@@ -38,12 +38,6 @@
     </ServiceInstance>
     <ServiceName xml:lang="es">Apple Test Stream</ServiceName>
     <ProviderName>TitanOS</ProviderName>
-    <RelatedMaterial>
-      <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
-      <tva:MediaLocator>
-        <tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/130xt4p2rp3essy8nzg029dcrjdx</tva:MediaUri>
-      </tva:MediaLocator>
-    </RelatedMaterial>
     <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
     <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
   </Service>
@@ -58,12 +52,6 @@
     </ServiceInstance>
     <ServiceName xml:lang="es">BBC Test Stream All lang</ServiceName>
     <ProviderName>TitanOS</ProviderName>
-    <RelatedMaterial>
-      <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
-      <tva:MediaLocator>
-        <tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/zc6ij5oqcnc8ywx062ntcwu3eyp1</tva:MediaUri>
-      </tva:MediaLocator>
-    </RelatedMaterial>
     <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
     <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
   </Service>
@@ -78,12 +66,6 @@
     </ServiceInstance>
     <ServiceName xml:lang="es">24h</ServiceName>
     <ProviderName>TitanOS</ProviderName>
-    <RelatedMaterial>
-      <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
-      <tva:MediaLocator>
-        <tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/o0oghfojvpl2okn40lvy0z419plb</tva:MediaUri>
-      </tva:MediaLocator>
-    </RelatedMaterial>
     <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
     <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
   </Service>
@@ -98,12 +80,6 @@
     </ServiceInstance>
     <ServiceName xml:lang="es">Teledeporte</ServiceName>
     <ProviderName>TitanOS</ProviderName>
-    <RelatedMaterial>
-      <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
-      <tva:MediaLocator>
-        <tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/q9x5p4xm0s4brye44w16gaw49i5u</tva:MediaUri>
-      </tva:MediaLocator>
-    </RelatedMaterial>
     <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
     <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
   </Service>
@@ -118,12 +94,6 @@
     </ServiceInstance>
     <ServiceName xml:lang="es">Esport 3</ServiceName>
     <ProviderName>TitanOS</ProviderName>
-    <RelatedMaterial>
-      <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
-      <tva:MediaLocator>
-        <tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/xtj7zyabel75a4hbhsiw8zjs24dw</tva:MediaUri>
-      </tva:MediaLocator>
-    </RelatedMaterial>
     <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
     <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
   </Service>
@@ -138,12 +108,6 @@
     </ServiceInstance>
     <ServiceName xml:lang="es">RealMadrid TV</ServiceName>
     <ProviderName>TitanOS</ProviderName>
-    <RelatedMaterial>
-      <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
-      <tva:MediaLocator>
-        <tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/3xbwn87rejisyr615x9vi98p87a3</tva:MediaUri>
-      </tva:MediaLocator>
-    </RelatedMaterial>
     <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
     <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
   </Service>
@@ -158,12 +122,6 @@
     </ServiceInstance>
     <ServiceName xml:lang="es">Canal Sur Andalucía</ServiceName>
     <ProviderName>TitanOS</ProviderName>
-    <RelatedMaterial>
-      <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
-      <tva:MediaLocator>
-        <tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/thgtxgusanh53iqjbf6f5ybu91fu</tva:MediaUri>
-      </tva:MediaLocator>
-    </RelatedMaterial>
     <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
     <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
   </Service>
@@ -178,12 +136,6 @@
     </ServiceInstance>
     <ServiceName xml:lang="es">Clan</ServiceName>
     <ProviderName>TitanOS</ProviderName>
-    <RelatedMaterial>
-      <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
-      <tva:MediaLocator>
-        <tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/ass83ga4blk9j8o2svcry741qz7w</tva:MediaUri>
-      </tva:MediaLocator>
-    </RelatedMaterial>
     <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
     <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
   </Service>
@@ -198,12 +150,6 @@
     </ServiceInstance>
     <ServiceName xml:lang="es">La 1</ServiceName>
     <ProviderName>TitanOS</ProviderName>
-    <RelatedMaterial>
-      <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
-      <tva:MediaLocator>
-        <tva:MediaUri contentType="image/jpeg">https://dev03-gaea.titanos.tv:443/img/5e7c8ylypbrmsbgyoynbgu7s4kdq</tva:MediaUri>
-      </tva:MediaLocator>
-    </RelatedMaterial>
     <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
     <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
   </Service>
@@ -218,12 +164,6 @@
     </ServiceInstance>
     <ServiceName xml:lang="es">Euronews World</ServiceName>
     <ProviderName>TitanOS</ProviderName>
-    <RelatedMaterial>
-      <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
-      <tva:MediaLocator>
-        <tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/f006yg9lwe46jmzhq379sgxe9g8o</tva:MediaUri>
-      </tva:MediaLocator>
-    </RelatedMaterial>
     <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
     <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
   </Service>
@@ -238,12 +178,6 @@
     </ServiceInstance>
     <ServiceName xml:lang="es">Playtoons TV</ServiceName>
     <ProviderName>TitanOS</ProviderName>
-    <RelatedMaterial>
-      <tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
-      <tva:MediaLocator>
-        <tva:MediaUri contentType="image/png">https://dev03-gaea.titanos.tv:443/img/om4pce4ks0gk352v53xb1waee79o</tva:MediaUri>
-      </tva:MediaLocator>
-    </RelatedMaterial>
     <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
     <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
   </Service>
