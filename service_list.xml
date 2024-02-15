@@ -6,18 +6,9 @@
     <LCNTable>
       <LCN channelNumber="5001" serviceRef="tag:titanos.tv,2023-09-15:IntegrationChannel/5664"/>
       <LCN channelNumber="5002" serviceRef="tag:titanos.tv,2023-09-15:IntegrationChannel/5745"/>
-      <LCN channelNumber="5003" serviceRef="tag:titanos.tv,2023-09-15:IntegrationChannel/5807"/>
-      <LCN channelNumber="5004" serviceRef="tag:titanos.tv,2023-09-15:IntegrationChannel/5848"/>
-      <LCN channelNumber="5005" serviceRef="tag:titanos.tv,2023-09-15:IntegrationChannel/5873"/>
       <LCN channelNumber="5006" serviceRef="tag:titanos.tv,2023-09-15:IntegrationChannel/5918"/>
-      <LCN channelNumber="5007" serviceRef="tag:titanos.tv,2023-09-15:IntegrationChannel/6171"/>
-      <LCN channelNumber="5008" serviceRef="tag:titanos.tv,2023-09-30:IntegrationChannel/9151"/>
-      <LCN channelNumber="5009" serviceRef="tag:titanos.tv,2023-10-01:IntegrationChannel/9392"/>
       <LCN channelNumber="5010" serviceRef="tag:titanos.tv,2023-10-03:IntegrationChannel/9805"/>
-      <LCN channelNumber="5011" serviceRef="tag:titanos.tv,2023-10-03:IntegrationChannel/9806"/>
       <LCN channelNumber="5012" serviceRef="tag:titanos.tv,2023-10-03:IntegrationChannel/9807"/>
-	  <LCN channelNumber="5013" serviceRef="tag:titanos.tv,2023-10-03:IntegrationChannel/9808"/>
-	  <LCN channelNumber="5014" serviceRef="tag:titanos.tv,2023-10-03:IntegrationChannel/9809"/>
     </LCNTable>
   </LCNTableList>
   <ContentGuideSource CGSID="csg_id_01">
@@ -56,48 +47,6 @@
     <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
   </Service>
   <Service version="1">
-    <UniqueIdentifier>tag:titanos.tv,2023-09-15:IntegrationChannel/5807</UniqueIdentifier>
-    <ServiceInstance>
-      <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
-        <hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
-          <URI>https://ztnr.rtve.es/ztnr/1694255.m3u8</URI>
-        </hls:UriBasedLocation>
-      </OtherDeliveryParameters>
-    </ServiceInstance>
-    <ServiceName xml:lang="es">24h</ServiceName>
-    <ProviderName>TitanOS</ProviderName>
-    <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
-    <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
-  </Service>
-  <Service version="1">
-    <UniqueIdentifier>tag:titanos.tv,2023-09-15:IntegrationChannel/5848</UniqueIdentifier>
-    <ServiceInstance>
-      <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
-        <hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
-          <URI>https://ztnr.rtve.es/ztnr/1712295.m3u8</URI>
-        </hls:UriBasedLocation>
-      </OtherDeliveryParameters>
-    </ServiceInstance>
-    <ServiceName xml:lang="es">Teledeporte</ServiceName>
-    <ProviderName>TitanOS</ProviderName>
-    <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
-    <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
-  </Service>
-  <Service version="1">
-    <UniqueIdentifier>tag:titanos.tv,2023-09-15:IntegrationChannel/5873</UniqueIdentifier>
-    <ServiceInstance>
-      <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
-        <hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
-          <URI>https://directes-tv-cat.ccma.cat/live-origin/esport3-hls/master.m3u8</URI>
-        </hls:UriBasedLocation>
-      </OtherDeliveryParameters>
-    </ServiceInstance>
-    <ServiceName xml:lang="es">Esport 3</ServiceName>
-    <ProviderName>TitanOS</ProviderName>
-    <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
-    <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
-  </Service>
-  <Service version="1">
     <UniqueIdentifier>tag:titanos.tv,2023-09-15:IntegrationChannel/5918</UniqueIdentifier>
     <ServiceInstance>
       <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
@@ -107,48 +56,6 @@
       </OtherDeliveryParameters>
     </ServiceInstance>
     <ServiceName xml:lang="es">RealMadrid TV</ServiceName>
-    <ProviderName>TitanOS</ProviderName>
-    <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
-    <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
-  </Service>
-  <Service version="1">
-    <UniqueIdentifier>tag:titanos.tv,2023-09-15:IntegrationChannel/6171</UniqueIdentifier>
-    <ServiceInstance>
-      <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
-        <hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
-          <URI>https://cdnlive.codev8.net/rtvalive/smil:channel1.smil/playlist.m3u8</URI>
-        </hls:UriBasedLocation>
-      </OtherDeliveryParameters>
-    </ServiceInstance>
-    <ServiceName xml:lang="es">Canal Sur Andalucía</ServiceName>
-    <ProviderName>TitanOS</ProviderName>
-    <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
-    <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
-  </Service>
-  <Service version="1">
-    <UniqueIdentifier>tag:titanos.tv,2023-09-30:IntegrationChannel/9151</UniqueIdentifier>
-    <ServiceInstance>
-      <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
-        <hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
-          <URI>https://ztnr.rtve.es/ztnr/5466990.m3u8</URI>
-        </hls:UriBasedLocation>
-      </OtherDeliveryParameters>
-    </ServiceInstance>
-    <ServiceName xml:lang="es">Clan</ServiceName>
-    <ProviderName>TitanOS</ProviderName>
-    <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
-    <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
-  </Service>
-  <Service version="1">
-    <UniqueIdentifier>tag:titanos.tv,2023-10-01:IntegrationChannel/9392</UniqueIdentifier>
-    <ServiceInstance>
-      <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
-        <hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
-          <URI>https://ztnr.rtve.es/ztnr/1688877.m3u8</URI>
-        </hls:UriBasedLocation>
-      </OtherDeliveryParameters>
-    </ServiceInstance>
-    <ServiceName xml:lang="es">La 1</ServiceName>
     <ProviderName>TitanOS</ProviderName>
     <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
     <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
@@ -168,20 +75,6 @@
     <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
   </Service>
   <Service version="1">
-    <UniqueIdentifier>tag:titanos.tv,2023-10-03:IntegrationChannel/9806</UniqueIdentifier>
-    <ServiceInstance>
-      <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
-        <hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
-          <URI>https://playgroundtv-playtoonstv-1-us.wurlintegrationsrdf.wurl.tv/playlist.m3u8</URI>
-        </hls:UriBasedLocation>
-      </OtherDeliveryParameters>
-    </ServiceInstance>
-    <ServiceName xml:lang="es">Playtoons TV</ServiceName>
-    <ProviderName>TitanOS</ProviderName>
-    <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
-    <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
-  </Service>
-  <Service version="1">
     <UniqueIdentifier>tag:titanos.tv,2023-10-03:IntegrationChannel/9807</UniqueIdentifier>
     <ServiceInstance>
       <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
@@ -191,34 +84,6 @@
       </OtherDeliveryParameters>
     </ServiceInstance>
     <ServiceName xml:lang="es">Love the Planet UK/US</ServiceName>
-    <ProviderName>TitanOS</ProviderName>
-    <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
-    <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
-  </Service>
-  <Service version="1">
-    <UniqueIdentifier>tag:titanos.tv,2023-10-03:IntegrationChannel/9808</UniqueIdentifier>
-    <ServiceInstance>
-      <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
-        <hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
-          <URI>https://bitmovin-a.akamaihd.net/content/sintel/hls/playlist.m3u8</URI>
-        </hls:UriBasedLocation>
-      </OtherDeliveryParameters>
-    </ServiceInstance>
-    <ServiceName xml:lang="es">Multi Audio and Multi Subtitles</ServiceName>
-    <ProviderName>TitanOS</ProviderName>
-    <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
-    <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
-  </Service>
-  <Service version="1">
-    <UniqueIdentifier>tag:titanos.tv,2023-10-03:IntegrationChannel/9809</UniqueIdentifier>
-    <ServiceInstance>
-      <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
-        <hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
-          <URI>https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8 </URI>
-        </hls:UriBasedLocation>
-      </OtherDeliveryParameters>
-    </ServiceInstance>
-    <ServiceName xml:lang="es">Multi Audio and Subtitles</ServiceName>
     <ProviderName>TitanOS</ProviderName>
     <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
     <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
