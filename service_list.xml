@@ -6,6 +6,7 @@
     <LCNTable>
       <LCN channelNumber="5001" serviceRef="tag:titanos.tv,2023-09-15:IntegrationChannel/5664"/>
       <LCN channelNumber="5002" serviceRef="tag:titanos.tv,2023-09-15:IntegrationChannel/5745"/>
+      <LCN channelNumber="5002" serviceRef="tag:titanos.tv,2023-09-15:IntegrationChannel/5748"/>
       <LCN channelNumber="5006" serviceRef="tag:titanos.tv,2023-09-15:IntegrationChannel/5918"/>
       <LCN channelNumber="5010" serviceRef="tag:titanos.tv,2023-10-03:IntegrationChannel/9805"/>
       <LCN channelNumber="5012" serviceRef="tag:titanos.tv,2023-10-03:IntegrationChannel/9807"/>
@@ -43,6 +44,20 @@
       </OtherDeliveryParameters>
     </ServiceInstance>
     <ServiceName xml:lang="es">BBC Test Stream All lang</ServiceName>
+    <ProviderName>TitanOS</ProviderName>
+    <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+    <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
+  </Service>
+  <Service version="1">
+    <UniqueIdentifier>tag:titanos.tv,2023-09-15:IntegrationChannel/5748</UniqueIdentifier>
+    <ServiceInstance>
+      <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+        <hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+          <URI>https://68135fdf430c4b8696a9255b64e41160.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Titan-fi_SparkleMovies/playlist.m3u8</URI>
+        </hls:UriBasedLocation>
+      </OtherDeliveryParameters>
+    </ServiceInstance>
+    <ServiceName xml:lang="es">Sparkle Movies</ServiceName>
     <ProviderName>TitanOS</ProviderName>
     <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
     <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
