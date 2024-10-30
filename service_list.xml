@@ -23,24 +23,16 @@
   <Service version="1">
     <UniqueIdentifier>tag:titanos.tv,2023-09-15:IntegrationChannel/5664</UniqueIdentifier>
     <ServiceInstance>
-<DASHDeliveryParameters>
-<UriBasedLocation contentType="application/dash+xml">
-<URI>https://a596177c366e4830923fe4a8291e4666.mediatailor.us-west-2.amazonaws.com/v1/dash/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-810-UK-SONYONEDRAGONSDEN-TITAN_OS/playlist.mpd?ads.app_bundle=titan_os&ads.app_name=Titan_OS&ads.app_store_url=https%3A%2F%2Fwww.titanos.tv%2Fappstore%2Ftitan_os&ads.device_id=&ads.ifa_type=&ads.channel_id=810&ads.channel_name=uk-sonyonedragonsden&ads.genre=reality&ads.dnt=&ads.gdpr=1&ads.coppa=0&ads.consent=&ads.device_make=&ads.device_model=&ads.brand_name=brand_name</URI>
-</UriBasedLocation>
-<ContentProtection>
-<DRMSystemId encryptionScheme="cenc">edef8ba9-79d6-4ace-a3c8-27dcd51d21ed</DRMSystemId>
-</ContentProtection>
-</DASHDeliveryParameters>
-</ServiceInstance>
-<ServiceName xml:lang="en">Sony One | Dragons' Den</ServiceName>
-<ProviderName>TitanOS</ProviderName>
-<RelatedMaterial>
-<tva:HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2021:1001.2"/>
-<tva:MediaLocator>
-<tva:MediaUri contentType="image/webp">https://stg01.titanos.tv:443/img/width/128/p3h9b40uort6ntk6rtfv0ph6rsje</tva:MediaUri>
-</tva:MediaLocator>
-</RelatedMaterial>
-<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+      <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType">
+        <hls:UriBasedLocation contentType="application/dash+xml">
+          <URI>https://rdmedia.bbc.co.uk/testcard/simulcast/manifests/avc-full.m3u8</URI>
+        </hls:UriBasedLocation>
+      </OtherDeliveryParameters>
+    </ServiceInstance>
+    <ServiceName xml:lang="es">BBC Test Stream All lang</ServiceName>
+    <ProviderName>TitanOS</ProviderName>
+    <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+    <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
   </Service>
   <Service version="1">
     <UniqueIdentifier>tag:titanos.tv,2023-09-15:IntegrationChannel/5745</UniqueIdentifier>
