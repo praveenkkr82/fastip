@@ -29,7 +29,7 @@
         </hls:UriBasedLocation>
       </OtherDeliveryParameters>
     </ServiceInstance>
-    <ServiceName xml:lang="es">BBC Test Stream All lang</ServiceName>
+    <ServiceName xml:lang="es">Dragon Den</ServiceName>
     <ProviderName>TitanOS</ProviderName>
     <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
     <ServiceDescription xml:lang="es" length="short">TODO</ServiceDescription>
